@@ -82,6 +82,7 @@ The central control file that brings everything together. It's where you specify
 #### 1. Configure main.py:
 project_name = 'YourProject'
 generator_modes = ['template_1', 'template_2']
+
 image_generator(project_name, generator_modes[0])
 
 #### 2. Run the generator:
